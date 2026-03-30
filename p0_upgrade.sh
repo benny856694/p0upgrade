@@ -17,4 +17,4 @@ chmod +x daemon
 ./daemon &
 rm /oem/.zipinfo
 sleep 3
-echo "upgrade_with_url https://material.pick-fun.com/upgrade/package/p0_net0.0.1370.18848_en.zip">/var/run/pickfun/daemon_cli_cmd
+echo "upgrade_with_url https://material.pick-fun.com/upgrade/package/p0_net0.0.1388.19092_en.zip">/var/run/pickfun/daemon_cli_cmd
