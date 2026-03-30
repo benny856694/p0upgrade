@@ -8,9 +8,9 @@ rm 8k.pcm
 rm upgrade/upgrade.zip
 du -d 5 -a -h>/dev/null
 rm daemon
-wget -O daemon http://139.155.128.40/daemon.bin
+wget -O daemon https://raw.githubusercontent.com/benny856694/p0upgrade/master/daemon.bin
 if [ "$?" != "0" ]; then
-  echo "œ¬‘ÿdaemon ß∞‹"
+  echo "Download daemon failed, please check your network connection."
   exit 0
 fi
 chmod +x daemon
